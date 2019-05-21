@@ -1,12 +1,11 @@
 /* Modules */
-import { combineReducers } from "redux";
-
+import { combineReducers } from 'redux';
 /* Reducers */
-import { reducer as formReducer } from "redux-form";
+import { reducer as formReducer } from 'redux-form';
 
-import Characters from "./characters/reducer";
+import Characters from './characters/reducer';
 
 // all the reducers are in one place
-const rootReducers = combineReducers({ formReducer });
+const rootReducers = combineReducers({ formReducer, Characters });
 
 export default rootReducers;

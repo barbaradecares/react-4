@@ -8,13 +8,11 @@ import Layout from './Layout';
 import App from '../containers/App/App';
 import DetailsPage from '../containers/DetailsPage/DetailsPage';
 
-//TODO Adjust routes
-
 const MyRouter = () => (
   <React.Fragment>
     <Layout>
       <Route exact path="/" component={App} />
-      <Route exact path="details" component={DetailsPage} />
+      <Route exact path="/details" component={DetailsPage} />
     </Layout>
   </React.Fragment>
 );

@@ -3,3 +3,4 @@ dev
 dist
 .cache
 yarn.lock
+variables.env
